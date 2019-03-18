@@ -3,9 +3,9 @@ const functions = {
   isNull: () => null,
   checkValue: x => x,
   createUser: () => {
-      const user = { firstName: 'Angel'}
-      user: ['lastName'] = 'Osoria';
-      return user
+    const user = { firstName: "Angel" };
+    user["lastName"] = "Osoria";
+    return user;
   }
 };
 
